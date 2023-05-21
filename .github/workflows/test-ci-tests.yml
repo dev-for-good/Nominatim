@@ -1,7 +1,7 @@
-name: CI Tests
+name: my-workflow
 
-on: workflow_dispatch
-  
+on:
+  workflow_dispatch:
 
 jobs:
     create-archive:
