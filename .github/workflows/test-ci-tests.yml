@@ -1,7 +1,6 @@
-name: my-workflow
+name: test-workflow
 
-on:
-  workflow_dispatch:
+on: [push]
 
 jobs:
     create-archive:
