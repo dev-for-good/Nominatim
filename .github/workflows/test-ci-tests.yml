@@ -97,6 +97,7 @@ jobs:
             - name: Prepare import environment
               run: |
                   mv Nominatim/test/testdb/apidb-test-data.pbf test.pbf
+                  mv Nominatim/settings/flex-base.lua flex-base.lua
                   mv Nominatim/settings/import-extratags.lua import-extratags.lua
                   mv Nominatim/settings/taginfo.lua taginfo.lua
                   rm -rf Nominatim
